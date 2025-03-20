@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 20% 3%;
+    --foreground: 210 40% 98%;
+
+    --card: 240 19% 5%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 240 19% 3%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 265 100% 70%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 263.4 70% 50.4%;
+    
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-cyber-darker text-foreground;
+    background-image: 
+      radial-gradient(at 40% 20%, hsla(260, 90%, 25%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 80% 50%, hsla(222, 80%, 40%, 0.1) 0px, transparent 50%),
+      radial-gradient(at 10% 70%, hsla(280, 90%, 30%, 0.1) 0px, transparent 50%);
+  }
+}
+
+@layer components {
+  .cyber-border {
+    @apply border border-cyber-purple/30 rounded-lg;
+    box-shadow: 0 0 10px rgba(155, 135, 245, 0.2), inset 0 0 10px rgba(155, 135, 245, 0.1);
+  }
+  
+  .glass-panel {
+    @apply bg-cyber-dark/60 backdrop-blur-md border border-white/10 rounded-xl;
+  }
+  
+  .neon-glow {
+    @apply relative after:absolute after:inset-0 after:rounded-lg after:animate-glow after:opacity-70 after:-z-10;
+  }
+  
+  .gradient-border {
+    @apply relative rounded-xl p-[1px] overflow-hidden;
+    background: linear-gradient(90deg, #9b87f5 0%, #4361EE 50%, #7209B7 100%);
+  }
+  
+  .gradient-border-content {
+    @apply bg-cyber-dark/90 rounded-xl w-full h-full overflow-hidden;
+  }
+}
