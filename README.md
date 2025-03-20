@@ -28,7 +28,7 @@ Welcome to **CryptoMemeX**, the **future of meme creation**! 🖼️✨ Imagine 
 ## 🛠️ Tech Stack  
 
 - **Move-Agent Kit** – For blockchain integration  
-- **Stable Diffusion / OpenAI DALL·E** – AI image generation  
+- **Stable Diffusion** – AI image generation  
 - **Python** – Backend for AI processing  
 - **React.js** – User-friendly meme generation UI  
 - **Aptos Blockchain** – Meme minting & decentralized storage  
@@ -42,17 +42,24 @@ Welcome to **CryptoMemeX**, the **future of meme creation**! 🖼️✨ Imagine 
 git clone https://github.com/yourusername/CryptoMemeX.git
 cd CryptoMemeX
 ```
-🌟 Contributing
-We ❤️ contributions! Want to add new AI models or blockchain integrations? Fork the repo, make your changes, and submit a PR! 🚀
-🔄 Project Updates
+
+---
+-🌟 Contributing
+
+-We ❤️ contributions! Want to add new AI models or blockchain integrations? Fork the repo, make your changes, and submit a PR! 🚀
+---
+
+---
+#🔄 Project Updates
 🚀 CryptoMemeX is evolving! Stay tuned for:
+- ✅ More AI models for meme generation
+- ✅ Enhanced blockchain features
+- ✅ Community voting on top memes
+- Check out our latest releases!
+---
 
-✅ More AI models for meme generation
-✅ Enhanced blockchain features
-✅ Community voting on top memes
-Check out our latest releases!
-
-📜 License
-CryptoMemeX is open-source under the MIT License. Use it, modify it, and spread the meme magic! 🎭💡
-
+---
+#📜 License
+-CryptoMemeX is open-source under the MIT License. Use it, modify it, and spread the meme magic! 🎭💡
+---
 
