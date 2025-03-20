@@ -1,6 +1,8 @@
 # Team Zegenze Welcomes you :)
 # 🚀 CryptoMemeX 🎭  
-**AI-Generated Memes Meet Blockchain Rewards!**  
+**AI-Generated Memes Meet Blockchain Rewards!**
+
+![CryptoMemeX Logo](https://github.com/SujaydRNSIT/CryptoMemeX/blob/1d106abf35641c1ac7b0a5b08f01170cbf9cb690/CryptoMemeX%20screenshots/Screenshot%202025-03-20%20004343.png)
 
 ## 📌 Introduction  
 
